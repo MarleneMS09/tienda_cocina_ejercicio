@@ -1,19 +1,3 @@
-.cabecera {
-    align-items: center;
-    background: #f9f9f9;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-}
-.menu__lista {
-    display:flex;
-
-}
-.menu__item {
-    list-style: none; /* se utiliza este para quitar los puntos que vinen por defecto en nuestra barra de navegacion*/
-}
 .menu__link {
     color: #808080;
     margin-right: 1.25rem; /*se utiliza para darle espacio a nuestra barra de navegación*/
@@ -22,12 +6,6 @@
 .menu__link:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
 .menu__link.activo {
     color: #cd3a3a;
 }
